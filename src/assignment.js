@@ -38,7 +38,6 @@ function countEvenNumbers(arrayOfNumbers) {
       even_number+=1
     }
   })
-  cosole.log(even_number)
   return even_number
 }
 assignment.countEvenNumbers = countEvenNumbers;
