@@ -31,13 +31,14 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-function sumOfNumbers(arrayOfNumbers) {
+function countEvenNumbers(arrayOfNumbers) {
   let even_number=0;
   arrayOfNumbers.forEach((num)=>{
     if (num%2==0){
       even_number+=1
     }
   })
+  cosole.log(even_number)
   return even_number
 }
 assignment.countEvenNumbers = countEvenNumbers;
